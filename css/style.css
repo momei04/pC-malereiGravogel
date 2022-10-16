@@ -9,6 +9,7 @@
     --text-color: #050505;
     --bg-color: #f3f3f3;
     --accentColorBlue:#1DB2BE;
+    --secAccent: #F7008B;
 
 }
 
@@ -41,8 +42,9 @@ p{
 
 a.btn{
     padding: 1rem 2rem;
-    background-color: var(--text-color);
+    background-color: var(--accentColorBlue);
     color: var(--bg-color);
+    font-weight: 200;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -180,7 +182,7 @@ h2::before{
     margin-top: .75rem;
     margin-right: 1rem;
     height: .25rem;
-    background-color: #1DB2BE;
+    background-color: var(--secAccent);
     
 }
 
@@ -312,7 +314,7 @@ footer{
     position: relative;
     max-height: 50%;
     margin-bottom: 0;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .map-section img{
