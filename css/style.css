@@ -244,9 +244,11 @@ h2::before{
     height: 100%;
     width: 50vw;
     padding: 1rem 2rem;
-    justify-content: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #f7f7f7;
+    justify-content: space-around;
 }
 
 .details .flex{
@@ -335,6 +337,7 @@ footer{
 
 .footer a{
     color: var(--text-color);
+    text-decoration: none;
 
 }
 
