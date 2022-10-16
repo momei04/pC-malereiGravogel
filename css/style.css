@@ -225,12 +225,13 @@ h2::before{
     gap: calc(1rem / 3);
     width: 100%;
     box-sizing: border-box;
+    margin: 2rem 0;
 }
 
 .contact .img-container{
     height: 80vh;
     position: relative;
-    width: 50%;
+    width: 50vw;
 }
 
 .contact .img-container img{
