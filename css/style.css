@@ -220,7 +220,7 @@ h2::before{
 }
 
 .contact{
-    padding: 1rem 4rem;
+    padding: 1rem 6rem;
     height: 80vh;
     gap: calc(1rem / 3);
     width: 100%;
@@ -228,24 +228,28 @@ h2::before{
 }
 
 .contact .img-container{
-    max-height: 100%;
+    height: 80vh;
     position: relative;
     width: 50%;
 }
 
 .contact .img-container img{
     max-height: 100%;
-    width: 100%;
+    width: 50vw;
     box-sizing: border-box;
 }
 
 .contact form{
     height: 100%;
-    width: 50%;
+    width: 50vw;
     padding: 1rem 2rem;
     justify-content: center;
     position: relative;
     background-color: #f7f7f7;
+}
+
+.details .flex{
+    flex-direction: column;
 }
 
 .details .flex a{
@@ -276,6 +280,7 @@ h2::before{
     box-sizing: border-box;
     padding: 2rem 0;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 
